@@ -5,7 +5,7 @@ Description: The Computing Tetromino Coursework challenged me to create an algor
 to fill a specified sized polyomino matrix (matrix sizes: 10x10, 100x100, 1000x1000) 
 Explain better here: 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Tetriling Puzzle: Target & Solution Matrix](https://github.com/TomWoodburn/Tetromino_Puzzle/blob/master/Target%20%26%20Solution%20Matrices/10x10%20Matrix%2C%2088pct%20Placement%20Accuracy.png)
 
 Three files required to run the tetris puzzle solving algorithm and visualise the result using MatPlotLib
 
