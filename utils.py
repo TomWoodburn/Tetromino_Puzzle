@@ -110,7 +110,7 @@ def visualisation(target, solution):
         for x in range(Tx_len):
             if row[x] == 1:
                 ax1.add_patch(patches.Rectangle((x, y), 0.88, 0.88, color='b'))  # draw a block
-    ax1.set_title('The Display of Task')
+    ax1.set_title('The Target Matrix')
     ax1.set_xlim([-1, Tx_len + 1])
     ax1.set_ylim([-1, Ty_len + 1])
     ax1.invert_yaxis()
@@ -134,7 +134,7 @@ def visualisation(target, solution):
                         ax2.text(x, y + 0.8, '{}'.format(num))  # add label to blocks that have wrong shapes
                         wrong_label_count[num] += 1
 
-    ax2.set_title('The Display of Solutioin')
+    ax2.set_title('The Solution Matrix')
     ax2.set_xlim([-1, Sx_len + 1])
     ax2.set_ylim([-1, Sy_len + 1])
     ax2.invert_yaxis()
