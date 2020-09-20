@@ -1,7 +1,9 @@
 # Tetromino_Puzzle
 The Tetriling Puzzle. 
 
-Description: The Computing Tetromino Coursework challenged me to create an algorithm that scanned a **Target Matrix** (recognising which positions were 0s, and which were 1s), then generate and fill-in a same-sized **Solution Matrix** with seected Tetris pieces. maximising the accuracy in matching the Target Matrix. The algorithm was assessed on the accuracy of puzzle placement (comparing the Target and Solution matrices) as well as the algorithm runtime at different Matrix sizes (10,100,1000).
+The Challenge: Find the most accurate solution to a target pattern of tetrominoes (TETRIS pieces) in the shortest runtime. A balance between speed and accuracy in the algorithm had to be found. 
+
+The Computing Tetromino Coursework challenged me to create an algorithm that scanned a **Target Matrix** (recognising which positions were 0s, and which were 1s), then generate and fill-in a same-sized **Solution Matrix** with seected Tetris pieces. maximising the accuracy in matching the Target Matrix. The algorithm was assessed on the accuracy of puzzle placement (comparing the Target and Solution matrices) as well as the algorithm runtime at different Matrix sizes (10,100,1000).
 
 ![Tetriling Puzzle: Target & Solution Matrix](https://github.com/TomWoodburn/Tetromino_Puzzle/blob/master/Target%20%26%20Solution%20Matrices/10x10%20Matrix%2C%2088pct%20Placement%20Accuracy.png)
 <br/>Above: The visualisation of the Target and Solution Matrix after runing "performance_test_v2.py". For a 10x10 Matrix, 88% of the Target Matrix is covered by Tetris Pieces Solution, the runtime was 0.00013 seconds. 
